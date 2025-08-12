@@ -83,7 +83,7 @@ body {
 }
 
 .contact_info {
-	font-size: 21px;
+	font-size: 18px;
 	color: #fff;
 	font-style: italic;
 	display: flex;
@@ -175,7 +175,8 @@ h2 {
 	flex-direction: row;
 	flex-flow: wrap;
 	justify-content: center;
-	margin: 0 0 30px;
+	 max-width: 1000px;
+    margin: 10px auto;
 }
 
 .skill {
@@ -185,7 +186,7 @@ h2 {
 	text-align: center;
 	margin: 15px;
 	padding: 15px;
-	width: 160px;
+	width: 165px;
 	font-size: 14px;
 	box-shadow: 0 3px 10px gray;
 	height: fit-content;
@@ -213,6 +214,7 @@ h2 {
 .skill img {
 	width: 70px;
 	height: 70px;
+    display: inline;
 }
 
 /* Projects */
@@ -513,3 +515,5 @@ h2 {
 		width: 135px;
 	}
 }
+
+

@@ -18,10 +18,9 @@
             </div>
         </div>
         <div class="topdiv">
-            <a class="topmenu" href="index.html">About Me</a>
-            <a class="topmenu" href="skills.html">Skills</a>
-            <a class="topmenu" href="projects.html">Projects</a>
-            <a class="topmenu" href="certificates.html">Certificates</a>
+            {{ collection:pages }}
+                <a class="topmenu" href="{{ url }}">{{ title }}</a>
+            {{ /collection:pages }}
         </div>
     </div>
 </nav>

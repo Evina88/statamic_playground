@@ -1,0 +1,41 @@
+title: Skills
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: skills
+        field:
+          type: replicator
+          display: Skills
+          sets:
+            skill:
+              display: Skill
+              fields:
+                -
+                  handle: icon
+                  field:
+                    type: assets
+                    display: Icon
+                    folder: /skills
+                    max_files: 1
+                    restrict: true
+                -
+                  handle: title
+                  field:
+                    type: text
+                    display: Title
+                -
+                  handle: start_date
+                  field:
+                    type: date
+                    display: Start Date
+                    time_enabled: false
+                    required: false
+                -
+                  handle: experience_text
+                  field:
+                    type: text
+                    display: Manual Experience Text (optional)
+                    instructions: Enter a custom experience text to override start date calculation.
+                    required: false

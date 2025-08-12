@@ -1,0 +1,27 @@
+<section id="skills">
+    <h2>Skills</h2>
+    <div style="clear: both"></div>
+    <div class="all_skills">
+        {{ skills }}
+            <div class="skill">
+                {{ if icon }}
+                    {{ assets:icon }}
+                        <img src="{{ url }}" alt="{{ title }} icon">
+                    {{ /assets:icon }}
+                {{ else }}
+                    <span>No icon available</span>
+                {{ /if }}
+                <h6>{{ title }}</h6>
+                <p>
+                    {{ if experience_text }}
+                        {{ experience_text }} years experience
+                    {{ elseif start_date }}
+                         {{ (now | format:Y) - (start_date | format:Y) }} years experience
+                    {{ else }}
+                        <!-- no experience data -->
+                    {{ /if }}
+                </p>
+            </div>
+        {{ /skills }}
+    </div>
+</section>
