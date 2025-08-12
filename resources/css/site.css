@@ -90,6 +90,7 @@ body {
 	align-items: center;
 	flex-direction: row;
 	padding: 4px 0 0;
+    cursor: pointer;
 }
 
 .contact_info img {
@@ -310,9 +311,9 @@ h2 {
 		justify-content: center;
 		text-align: center;
 	}
-    .about-me-div{
+    /* .about-me-div{
         max-width:50%;
-    }
+    } */
 
 	.about-me-p {
 		margin: 12px auto;

@@ -1,0 +1,27 @@
+<nav>
+    <div id="home">
+        <div class="profile_name">
+           <div class="contact_info" data-copy="{{ personal_info:email }}">
+                {{ personal_info:email_icon }}
+                    <img src="{{ glide:id }}" alt="Email icon">
+                {{ /personal_info:email_icon }}
+                {{ personal_info:email }}
+            </div>
+
+            <div style="clear: both"></div>
+
+            <div class="contact_info" data-copy="{{ personal_info:phone }}">
+                {{ personal_info:phone_icon }}
+                    <img src="{{ glide:id }}" alt="Phone icon">
+                {{ /personal_info:phone_icon }}
+                {{ personal_info:phone }}
+            </div>
+        </div>
+        <div class="topdiv">
+            <a class="topmenu" href="index.html">About Me</a>
+            <a class="topmenu" href="skills.html">Skills</a>
+            <a class="topmenu" href="projects.html">Projects</a>
+            <a class="topmenu" href="certificates.html">Certificates</a>
+        </div>
+    </div>
+</nav>

@@ -1,0 +1,36 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: email_icon
+            field:
+              container: assets
+              type: assets
+              display: 'Assets Field Email'
+              width: 50
+              listable: true
+          -
+            handle: email
+            field:
+              type: text
+              display: 'Text Field Email'
+              width: 50
+              listable: true
+          -
+            handle: phone_icon
+            field:
+              container: assets
+              type: assets
+              display: 'Assets Field Phone'
+              width: 50
+              listable: true
+          -
+            handle: phone
+            field:
+              type: text
+              display: 'Text Field Phone'
+              width: 50
+              listable: true
