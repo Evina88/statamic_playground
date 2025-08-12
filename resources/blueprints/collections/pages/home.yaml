@@ -1,0 +1,20 @@
+title: Home
+fields:
+  - handle: hero_image
+    field:
+      type: assets
+      display: Hero Image
+      max_files: 1
+      container: assets
+  - handle: bard_field
+    field:
+      type: bard
+      display: Introduction
+      sets:
+        - handle: heading
+          display: Heading
+          fields:
+            - handle: text
+              field:
+                type: text
+                display: Text
